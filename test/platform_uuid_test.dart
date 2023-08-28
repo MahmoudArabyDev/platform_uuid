@@ -15,6 +15,12 @@ class MockPlatformUuidPlatform
     // TODO: implement getUUid
     throw UnimplementedError();
   }
+
+  @override
+  Future checkPermission() {
+    // TODO: implement checkPermission
+    throw UnimplementedError();
+  }
 }
 
 void main() {

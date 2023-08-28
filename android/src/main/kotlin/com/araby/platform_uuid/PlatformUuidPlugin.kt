@@ -44,7 +44,7 @@ class PlatformUuidPlugin: FlutterPlugin, MethodCallHandler , ActivityAware {
             requestPermission()
         }
         "getUUid" -> {
-          getUUid(result);
+            getAndroidId(result);
         }
         else -> {
           result.notImplemented()
